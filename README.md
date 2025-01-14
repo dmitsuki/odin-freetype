@@ -6,21 +6,21 @@ Freetype Version: 2.13.2
 _**Note:** This is a work in progress. If additional bindings are required, please feel free to submit an issue or a pull request._
 
 ## Installation
-Clone this repository to Odin's shared collection, preferably into a directory named 'freetype'.
+Download this project and include it in your project
 
 ```bash
 cd Odin/shared
-git clone https://github.com/englerj/odin-freetype.git freetype
+git clone https://github.com/dmitsuki/odin-freetype.git freetype
 ```
 
 ## Usage
-Import the package.
+Include folder for the pckage in your project and import the package.
 ```c
-import "shared:freetype"
+import "/freetype"
 ```
 
 ## Demo
-On Windows, you can run the demo under the `demo` folder. The demo renders a series of characters from a font and displays them in the window. You can adjust the size of the font using the arrow keys.
+The demo simply generates a bitmap using freetype and display it with raylib
 ```bash
 cd demo
 odin run .\

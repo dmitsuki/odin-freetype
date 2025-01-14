@@ -9,7 +9,6 @@ _**Note:** This is a work in progress. If additional bindings are required, plea
 Download this project and include it in your project
 
 ```bash
-cd Odin/shared
 git clone https://github.com/dmitsuki/odin-freetype.git freetype
 ```
 
